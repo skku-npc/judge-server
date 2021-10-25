@@ -1,0 +1,14 @@
+[*]
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{go,json}]
+indent_size = 2
+
+[*.c]
+indent_size = 4
+
+[.vscode/**.json]
+indent_size = 4 

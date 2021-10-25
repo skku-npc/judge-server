@@ -1,0 +1,21 @@
+gitConfig:
+  pull.rebase: "true"
+
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - port: 8080
+    onOpen: ignore
+
+# TODO: add tasks (build judger with cmake)
+
+vscode:
+  extensions:
+    - donjayamanne.githistory
+    - eamodio.gitlens
+    - golang.Go
+    - gruntfuggly.todo-tree
+    - humao.rest-client
+    - ms-azuretools.vscode-docker
+    - pkief.material-icon-theme
