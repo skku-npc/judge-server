@@ -18,4 +18,5 @@ vscode:
     - gruntfuggly.todo-tree
     - humao.rest-client
     - ms-azuretools.vscode-docker
+    - ms-vscode.cmake-tools
     - pkief.material-icon-theme
