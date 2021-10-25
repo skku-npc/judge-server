@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "golang.Go",
+        "gruntfuggly.todo-tree",
+        "humao.rest-client",
+        "ms-azuretools.vscode-docker",
+        "pkief.material-icon-theme"
+    ]
+}
