@@ -8,7 +8,10 @@ ports:
   - port: 8080
     onOpen: ignore
 
-# TODO: add tasks (build judger with cmake)
+tasks:
+  - name: Build Judger
+    before: mkdir build && cd build && cmake .. && make
+    init: sudo make install
 
 vscode:
   extensions:
