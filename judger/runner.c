@@ -106,8 +106,8 @@ void run(struct config *_config, struct result *_result) {
         }
         else {
             _result->exit_code = WEXITSTATUS(status);
-            _result->cpu_time = (int) (resource_usage.ru_utime.tv_sec * 1000 +
-                                       resource_usage.ru_utime.tv_usec / 1000);
+            _result->cpu_time = (int) (resource_usage.ru_stime.tv_sec * 1000 +
+                                       resource_usage.ru_stime.tv_usec / 1000);
             _result->memory = resource_usage.ru_maxrss * 1024;
 
             if (_result->exit_code != 0) {
